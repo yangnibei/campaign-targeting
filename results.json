@@ -8,6 +8,89 @@
     "average_precision": 0.55284,
     "top_20_percent_precision": 0.606748,
     "top_20_percent_lift": 1.921156,
+    "top_20_percent_response_capture": 0.384104,
+    "contact_share_checkpoints": [
+      {
+        "target_contact_share": 0.1,
+        "contacts": 904,
+        "contact_share": 0.099967,
+        "precision": 0.715708,
+        "lift": 2.266158,
+        "response_capture": 0.226541
+      },
+      {
+        "target_contact_share": 0.2,
+        "contacts": 1808,
+        "contact_share": 0.199934,
+        "precision": 0.606748,
+        "lift": 1.921156,
+        "response_capture": 0.384104
+      },
+      {
+        "target_contact_share": 0.3,
+        "contacts": 2712,
+        "contact_share": 0.2999,
+        "precision": 0.53208,
+        "lift": 1.684733,
+        "response_capture": 0.505252
+      },
+      {
+        "target_contact_share": 0.4,
+        "contacts": 3617,
+        "contact_share": 0.399978,
+        "precision": 0.496821,
+        "lift": 1.573091,
+        "response_capture": 0.629202
+      },
+      {
+        "target_contact_share": 0.5,
+        "contacts": 4521,
+        "contact_share": 0.499945,
+        "precision": 0.463614,
+        "lift": 1.467949,
+        "response_capture": 0.733894
+      },
+      {
+        "target_contact_share": 0.6,
+        "contacts": 5425,
+        "contact_share": 0.599912,
+        "precision": 0.432074,
+        "lift": 1.368082,
+        "response_capture": 0.820728
+      },
+      {
+        "target_contact_share": 0.7,
+        "contacts": 6330,
+        "contact_share": 0.699989,
+        "precision": 0.395419,
+        "lift": 1.252021,
+        "response_capture": 0.876401
+      },
+      {
+        "target_contact_share": 0.8,
+        "contacts": 7234,
+        "contact_share": 0.799956,
+        "precision": 0.362179,
+        "lift": 1.146772,
+        "response_capture": 0.917367
+      },
+      {
+        "target_contact_share": 0.9,
+        "contacts": 8138,
+        "contact_share": 0.899923,
+        "precision": 0.335832,
+        "lift": 1.06335,
+        "response_capture": 0.956933
+      },
+      {
+        "target_contact_share": 1.0,
+        "contacts": 9043,
+        "contact_share": 1.0,
+        "precision": 0.315824,
+        "lift": 1.0,
+        "response_capture": 1.0
+      }
+    ],
     "features": [
       "balance",
       "default",

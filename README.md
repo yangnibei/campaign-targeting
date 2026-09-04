@@ -8,13 +8,18 @@
 
 ![Campaign Targeting: reproducible analysis](analysis.svg)
 
+## Visual guide
+
+- **Left — cumulative capture:** shows how much observed response is captured as the contact budget expands, with the 20% example marked.
+- **Right — lift by budget:** shows ranking quality relative to the held-out population; it is response propensity, not causal uplift.
+
 ## Business brief
 
-This public-data case study explores a focused business question using **Chronological holdout, logistic regression, precision and lift**. Read the results alongside their assumptions before acting on them.
+This public-data case study explores a focused business question using an **order-preserving last-block holdout, logistic regression, precision and lift**. Read the results alongside their assumptions before acting on them.
 
 ## Approach
 
-Chronological holdout, logistic regression, precision and lift. The implementation contains input and reconciliation assertions. Each run writes an aggregate report, machine-readable metrics and the chart shown above.
+Order-preserving last-block holdout, logistic regression, precision and lift. The dataset lacks a complete timestamp, so this is not described as a strict chronological split. The implementation contains input and reconciliation assertions. Each run writes an aggregate report, machine-readable metrics and the chart shown above.
 
 ## Reproduce
 
@@ -48,4 +53,3 @@ This repository is an educational portfolio case study, not paid client work, em
 - `REPORT.md`: generated findings and decision boundaries.
 - `results.json`: aggregate metrics and source provenance.
 - `analysis.svg`: reproducible figure.
-
